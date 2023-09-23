@@ -1,0 +1,83 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .example {background: red;}
+}
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .example {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .example {background: blue;}
+} 
+
+  /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .example {background: orange;}
+} 
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+
+
+
+/* Top navigation*/
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif;
+}
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-style: solid;
+}
+.topnav a:hover{   /* When hovering with mouse over topnav*/
+    background-color: white;
+    color: blueviolet;
+    font-style: italic;
+    
+}
+
+/* Welcome section */
+#welcome-section{
+font-size: 30px;
+color: red;
+text-align: center;
+}
+#welcome-section:hover{
+    color: blue;
+}
+#welcome-section p{
+font-size: 22px;
+}
+
+#experiences h1{
+    color: blueviolet;
+    font-size: 45px;
+}
+#experiences h2{
+    color: black;
+}
+#experiences h3{
+    color: grey;
+    font-style: italic;
+}
+
+body{
+    padding-left: 2px;
+    text-align: center;
+}
+
+#achievements h1, #skills h1 {
+    color: blueviolet;
+    font-size: 45px;
+}
