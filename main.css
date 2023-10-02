@@ -53,7 +53,7 @@
 font-size: 30px;
 color: red;
 text-align: center;
-
+padding-bottom: 1em;
 }
 #welcome-section:hover {
     color: blue;
@@ -61,28 +61,30 @@ text-align: center;
 #welcome-section p {
 font-size: 22px;
 }
+
 p { 
     margin-bottom : 2.7em; 
 }
 body {
-    padding-left: 2px;
     text-align: center;
 }
-
+.current {
+    color: blue;
+}
 
 
 #workExperiences h2 {
-    color: darkslategrey;
+    color: black;
 }
 #workExperiences h3 {
-    color: black;
+    color: blue;
     font-style: italic;
 }
 #workExperiences li {
     color: white;
 }
 #workExperiences h1, #skills h1, #studies h1, #projects h1 {
-    color: white;
+    color: black;
     font-size: 45px;
 }
 #workExperiences {
@@ -91,7 +93,6 @@ body {
     background-size: cover;
     color: white;
 }
-
 
 
 #studies {
@@ -103,13 +104,14 @@ body {
     margin-bottom : 1em; 
 }
 
+
 #skills{
     background-image: url("https://cdn.pixabay.com/photo/2014/08/09/15/45/sky-414199_1280.jpg");
     background-repeat: no-repeat;
     background-size: cover;      
 }
 #skills h3{
-    color: darkslategrey;
+    color: black;
 }
 #skills li{
     color: black;
@@ -127,6 +129,7 @@ body {
 font-size: 20px;
 color: orangered;
 }
+
 
 footer{
     margin-top: 20em;
