@@ -69,11 +69,7 @@ body {
 }
 
 
-#workExperiences h1 {
-    color: white;
-    background-color: black;
-    font-size: 45px;
-}
+
 #workExperiences h2 {
     color: black;
 }
@@ -86,7 +82,7 @@ body {
 }
 #workExperiences h1, #skills h1, #studies h1, #projects h1 {
     color: white;
-    background-color: black;
+    /*background-color: black;*/
     font-size: 45px;
 }
 #workExperiences {
