@@ -22,6 +22,7 @@
   /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .example {background: pink;}
+}
 
 
 
@@ -40,7 +41,7 @@
     font-size: 17px;
     font-style: solid;
 }
-.topnav a:hover{   /* When hovering with mouse over topnav*/
+.topnav a:hover {   /* When hovering with mouse over topnav*/
     background-color: white;
     color: blueviolet;
     font-style: italic;
@@ -48,47 +49,94 @@
 }
 
 /* Welcome section */
-#welcome-section{
+#welcome-section {
 font-size: 30px;
 color: red;
 text-align: center;
 }
-#welcome-section:hover{
+#welcome-section:hover {
     color: blue;
 }
-#welcome-section p{
+#welcome-section p {
 font-size: 22px;
 }
-
-#experiences h1{
-    color: white;
-    background-color: black;
-    font-size: 45px;
+p { 
+    margin-bottom : 2.7em; 
 }
-#experiences h2{
-    color: black;
-}
-#experiences h3{
-    color: grey;
-    font-style: italic;
-}
-
-body{
+body {
     padding-left: 2px;
     text-align: center;
 }
 
-#achievements h1, #skills h1 {
+
+#workExperiences h1 {
     color: white;
     background-color: black;
     font-size: 45px;
 }
-#contact h3{
+#workExperiences h2 {
+    color: black;
+}
+#workExperiences h3 {
+    color: darkslategrey;
+    font-style: italic;
+}
+#workExperiences li {
+    color: white;
+}
+#workExperiences h1, #skills h1, #studies h1, #projects h1 {
+    color: white;
+    background-color: black;
+    font-size: 45px;
+}
+#workExperiences {
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/24/13/45/coffee-1276784_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+
+#studies {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/21/14/12/books-1845614_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#studies h3 {
+    color: darkslategrey;
+}
+#studies li { 
+    margin-bottom : 1em; 
+}
+
+
+#skills{
+    background-image: url("https://cdn.pixabay.com/photo/2014/08/09/15/45/sky-414199_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;      
+}
+#skills h3{
+    color: black;
+}
+#skills li{
+    color: darkslategrey;
+    font-size: 15px;
+    margin-bottom : 1em; 
+}
+
+
+#contact h3 {
     font-size: 40px;
     color: orangered;
     background-color: black;
 }
-#contact p{
+#contact p {
 font-size: 20px;
 color: orangered;
+}
+
+footer{
+    margin-top: 20em;
+    margin-bottom: 10em;
 }
