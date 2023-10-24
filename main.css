@@ -147,6 +147,10 @@ footer{
     animation-name: color-shift;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+
+    animation-name: jumpIn;
+    animation-duration: 3s;
+    animation-iteration-count: 10;
     }
     
     @keyframes color-shift {
@@ -163,3 +167,14 @@ footer{
             background-color: green;
         }
     }
+
+
+
+    @keyframes jumpIn{
+            0% {
+    opacity: 0;
+            }
+            100%{
+    opacity: 1;
+            }
+        }
